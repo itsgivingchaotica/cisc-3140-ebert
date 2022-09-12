@@ -3,7 +3,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.time.temporal.ChronoUnit;
 
-public class Lab1DueDates {
+class Main {
 
 	public static void main(String[] args) {
 		try {

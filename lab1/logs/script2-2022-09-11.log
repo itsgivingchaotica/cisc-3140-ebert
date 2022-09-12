@@ -10,4 +10,36 @@ Script started on Sun Sep 11 23:16:51 2022
 [1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan]2;siobhan@MacBook-Pro-2]1;~]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:17:06] [00m[37m[~][00m [32m[main [31m*[32m][00m
 [34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hggig  ccd cisc-3140-ebert[?1l>[?2004l
 ]2;cd cisc-3140-ebert]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3140-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:24:13] [00m[37m[~/cisc-3140-ebert][00m [32m[main [31m*[32m][00m
-[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hggit 
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hggit  g gi t [1C i n i t [?1l>[?2004l
+]2;git init]1;gitReinitialized existing Git repository in /Users/siobhan/cisc-3140-ebert/.git/
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3140-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:24:39] [00m[37m[~/cisc-3140-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3140-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:24:45] [00m[37m[~/cisc-3140-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hggit commit -m "first commit"[?1l>[?2004l
+]2;git commit -m "first commit"]1;git[main 1e49d73] first commit
+ 5 files changed, 382 insertions(+)
+ create mode 100644 lab1/labDueDates.java
+ create mode 100644 lab1/logs/script-2022-09-08.log
+ create mode 100644 lab1/logs/script-2022-09-11.log
+ create mode 100644 lab1/logs/script2-2022-09-11.log
+ create mode 100644 lab1/task1note.txt
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3140-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:25:06] [00m[37m[~/cisc-3140-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hggtg git remote add origin [7mgit@github.com:itsgivingchaotica/cisc[7m-[7m3140-ebert.git[27m[K[A[28C[27mg[27mi[27mt[27m@[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m:[27mi[27mt[27ms[27mg[27mi[27mv[27mi[27mn[27mg[27mc[27mh[27ma[27mo[27mt[27mi[27mc[27ma[27m/[27mc[27mi[27ms[27mc-[27m3[27m1[27m4[27m0[27m-[27me[27mb[27me[27mr[27mt[27m.[27mg[27mi[27mt[?1l>[?2004l
+]2;git remote add origin git@github.com:itsgivingchaotica/cisc-3140-ebert.git]1;giterror: remote origin already exists.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3140-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:25:29] [00m[37m[~/cisc-3140-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hggit push[?1l>[?2004l
+]2;git push]1;gitEnumerating objects: 10, done.
+Counting objects:  10% (1/10)Counting objects:  20% (2/10)Counting objects:  30% (3/10)Counting objects:  40% (4/10)Counting objects:  50% (5/10)Counting objects:  60% (6/10)Counting objects:  70% (7/10)Counting objects:  80% (8/10)Counting objects:  90% (9/10)Counting objects: 100% (10/10)Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects:  11% (1/9)Compressing objects:  22% (2/9)Compressing objects:  33% (3/9)Compressing objects:  44% (4/9)Compressing objects:  55% (5/9)Compressing objects:  66% (6/9)Compressing objects:  77% (7/9)Compressing objects:  88% (8/9)Compressing objects: 100% (9/9)Compressing objects: 100% (9/9), done.
+Writing objects:  11% (1/9)Writing objects:  22% (2/9)Writing objects:  33% (3/9)Writing objects:  55% (5/9)Writing objects:  66% (6/9)Writing objects:  77% (7/9)Writing objects:  88% (8/9)Writing objects: 100% (9/9)Writing objects: 100% (9/9), 5.96 KiB | 2.98 MiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), done.[K
+To github.com:itsgivingchaotica/cisc-3140-ebert.git
+   d1e2813..1e49d73  main -> main
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3140-ebert]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[23:25:46] [00m[37m[~/cisc-3140-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+
+Script done on Sun Sep 11 23:26:15 2022
