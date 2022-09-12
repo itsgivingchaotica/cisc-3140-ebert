@@ -1,0 +1,229 @@
+Script started on Sun Sep  4 18:14:59 2022
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hlls[?2004l
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+IdeaProjects
+Library
+Monero
+Movies
+Music
+Pictures
+Public
+Sites
+SomeLocalDir
+cisc-3142-ebert
+eclipse-workspace
+g++
+g++-12
+g++12
+saoirse.ebert91@login.cuny.edu Creative Cloud Files (enterprise)
+script3140.log
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hmmkdir cisc-3142-ebe     0-ebert[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004httouch   t  ccd cisc-3142 0-ebert[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hccdc  ttouch logs[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hccd ~[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hccd cisc-3149-0   0-ebert[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hggit clone [7mgit@github.com:itsgivingchaoti[7mc[7ma/cisc-3140-ebert.git[27m[K[A[28C[27mg[27mi[27mt[27m@[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m:[27mi[27mt[27ms[27mg[27mi[27mv[27mi[27mn[27mg[27mc[27mh[27ma[27mo[27mt[27mic[27ma[27m/[27mc[27mi[27ms[27mc[27m-[27m3[27m1[27m4[27m0[27m-[27me[27mb[27me[27mr[27mt[27m.[27mg[27mi[27mt[?2004l
+Cloning into 'cisc-3140-ebert'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Receiving objects:  33% (1/3)Receiving objects:  66% (2/3)Receiving objects: 100% (3/3)Receiving objects: 100% (3/3), done.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hccp -R /cisc     ~/siobhan/cisc-31- 42-ebert/exercise [K11/task1note         1 [K[A[79C[K[1B[K[A[79C                                   c  lls[?2004l[1Bcisc-3140-ebert	logs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hccd cisc-3140         c  ccd cisc-3140-3 ebert[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hlls[?2004l
+README.md
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hrrm cisc-314        r  mmv / !~/   ~/siobhan/cisc-3140-ebert/cisc-3140-e [Kbbert ~/siobhan/cisc3 -3140-3 ebert[?2004l
+mv: rename /Users/siobhan/siobhan/cisc-3140-ebert/cisc-3140-ebert to /Users/siobhan/siobhan/cisc-3140-ebert: No such file or directory
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hmmv ~/vi  cisc- -3140/e  -ebert ~/cisc-3140-ebert/c [Kiisc-31    c-3140-ebert            i [K[A[79C[K[1B[K[A[79C                  /cisc      /cisc-3140e -ebert ~/s [Kiiobhan[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hlls[?2004l
+README.md
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hccd ~[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hlls[?2004l
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+IdeaProjects
+Library
+Monero
+Movies
+Music
+Pictures
+Public
+Sites
+SomeLocalDir
+cisc-3140-ebert
+cisc-3142-ebert
+eclipse-workspace
+g++
+g++-12
+g++12
+saoirse.ebert91@login.cuny.edu Creative Cloud Files (enterprise)
+script3140.log
+siobhan
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hccd cisc-3140-ebert[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hlls[?2004l
+logs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hl rrm cisc-3140-ebert[?2004l
+rm: cisc-3140-ebert: No such file or directory
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hccd ~[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hrrm cisc-3140-ebert[?2004l
+rm: cisc-3140-ebert: is a directory
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hrrm -r cisc-3140-ebert[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hlls[?2004l
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+IdeaProjects
+Library
+Monero
+Movies
+Music
+Pictures
+Public
+Sites
+SomeLocalDir
+cisc-3142-ebert
+eclipse-workspace
+g++
+g++-12
+g++12
+saoirse.ebert91@login.cuny.edu Creative Cloud Files (enterprise)
+script3140.log
+siobhan
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hggit clone [7mgit@github.com:itsgivingchaotica/cisc-3140-e[7mb[7mert.git[27m[K[A[28C[27mg[27mi[27mt[27m@[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m:[27mi[27mt[27ms[27mg[27mi[27mv[27mi[27mn[27mg[27mc[27mh[27ma[27mo[27mt[27mi[27mc[27ma[27m/[27mc[27mi[27ms[27mc[27m-[27m3[27m1[27m4[27m0[27m-[27meb[27me[27mr[27mt[27m.[27mg[27mi[27mt[?2004l
+Cloning into 'cisc-3140-ebert'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Receiving objects:  33% (1/3)Receiving objects:  66% (2/3)Receiving objects: 100% (3/3)Receiving objects: 100% (3/3), done.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hlls[?2004l
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+IdeaProjects
+Library
+Monero
+Movies
+Music
+Pictures
+Public
+Sites
+SomeLocalDir
+cisc-3140-ebert
+cisc-3142-ebert
+eclipse-workspace
+g++
+g++-12
+g++12
+saoirse.ebert91@login.cuny.edu Creative Cloud Files (enterprise)
+script3140.log
+siobhan
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hccd cisc-3140-ebert[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hlls[?2004l
+README.md
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004httouch logs[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hlls[?2004l
+README.md	logs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hccd ~[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hmmv m  ccp -R ~/cis    /cisc-3142-ebert/exerci      exercise`1  1/task1note / ~/  /cis c-3140- [Keebert   e [K[A[79C[K[1B[K[A[79C                                                c  ccd cisc-3140-ebert[?2004l[1B[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004httouch exercise1[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hccd ~[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hccp -r R ~/cisc-3142- /exercise1/task1note /cisc-3140/exerc [Kiise1/task1note[?2004l
+cp: /Users/siobhan/cisc-3142/exercise1/task1note: No such file or directory
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hccp -R ~/cisc-3142-e  -ebert/exercise1/task1note /cisc-3140 [K--ebert/exercose   ise1/task1note[?2004l
+cp: /Users/siobhan/cisc-3142-ebert/exercise1/task1note: No such file or directory
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hccp -R ~/cisc-3142-ebert/exercise1/task1note ~/cisc-314 [K00-ebert? /exercise1/task1note[?2004l
+cp: /Users/siobhan/cisc-3140-ebert/exercise1/task1note: Not a directory
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hlls[?2004l
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+IdeaProjects
+Library
+Monero
+Movies
+Music
+Pictures
+Public
+Sites
+SomeLocalDir
+cisc-3140-ebert
+cisc-3142-ebert
+eclipse-workspace
+g++
+g++-12
+g++12
+saoirse.ebert91@login.cuny.edu Creative Cloud Files (enterprise)
+script3140.log
+siobhan
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hccd cisc031   -3142-ebert[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3142-ebert % [K[?2004hlls[?2004l
+README.md	exercise1	logs		script-.log
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3142-ebert % [K[?2004hccd exercise1[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/exercise1[0m[27m[24m[Jsiobhan@MacBook-Pro-2 exercise1 % [K[?2004hlls[?2004l
+hello.cpp	helloworld	task1note.rtf
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/exercise1[0m[27m[24m[Jsiobhan@MacBook-Pro-2 exercise1 % [K[?2004hoopen helloworld[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/exercise1[0m[27m[24m[Jsiobhan@MacBook-Pro-2 exercise1 % [K[?2004hccp tast knote.rt       1noter .rtf copynote.rtf[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/exercise1[0m[27m[24m[Jsiobhan@MacBook-Pro-2 exercise1 % [K[?2004hmmv c / ~/cisc-3142-ebert/exercise1/copynote.rtf ~/ [Kssiobhan/cisc-3140-ebert/exercise1/task1note.rtf[?2004l
+mv: rename /Users/siobhan/cisc-3142-ebert/exercise1/copynote.rtf to /Users/siobhan/siobhan/cisc-3140-ebert/exercise1/task1note.rtf: No such file or directory
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/exercise1[0m[27m[24m[Jsiobhan@MacBook-Pro-2 exercise1 % [K[?2004hmmv ~/cisc-3142-ebert/exercise1/copynote.rtf ~/ [Kccisc-3140-ebert/exercise1/task1note.rtf[?2004l
+mv: rename /Users/siobhan/cisc-3142-ebert/exercise1/copynote.rtf to /Users/siobhan/cisc-3140-ebert/exercise1/task1note.rtf: Not a directory
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/exercise1[0m[27m[24m[Jsiobhan@MacBook-Pro-2 exercise1 % [K[?2004hmmv ~/cisc-3142-ebert/exerci ise1/copynote.rtf ~/ [Kccisc-3140-ebert/exercise1/task1note.rtf[?2004l
+mv: rename /Users/siobhan/cisc-3142-ebert/exercise1/copynote.rtf to /Users/siobhan/cisc-3140-ebert/exercise1/task1note.rtf: Not a directory
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/exercise1[0m[27m[24m[Jsiobhan@MacBook-Pro-2 exercise1 % [K[?2004h~~/cisc-3142-ebert/        0- . /exercise1/copynote.rtf ~                                 ~  k mmv 1 ~/cisc315 42 -0  0-ebert-           -3140-ebrert    ert/exercise/copynote.rtf ~/c [Kiisc-3142-ebert            i [K[A[79C[K[1B[K[A[79C                               2-ebert/copynote.rtf            exercise1/copynote.rtf ~/ [Kccisc-3140-ebert/exercise1[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/exercise1[0m[27m[24m[Jsiobhan@MacBook-Pro-2 exercise1 % [K[?2004hlls[?2004l
+hello.cpp	helloworld	task1note.rtf
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3142-ebert/exercise1[0m[27m[24m[Jsiobhan@MacBook-Pro-2 exercise1 % [K[?2004hccd ~[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hlls[?2004l
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+IdeaProjects
+Library
+Monero
+Movies
+Music
+Pictures
+Public
+Sites
+SomeLocalDir
+cisc-3140-ebert
+cisc-3142-ebert
+eclipse-workspace
+g++
+g++-12
+g++12
+saoirse.ebert91@login.cuny.edu Creative Cloud Files (enterprise)
+script3140.log
+siobhan
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan[0m[27m[24m[Jsiobhan@MacBook-Pro-2 ~ % [K[?2004hccd cisc-3140-ebert[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hlls[?2004l
+README.md	exercise1	logs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hccd exercise1[?2004l
+cd: not a directory: exercise1
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hlls[?2004l
+README.md	exercise1	logs
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hccd c  ccd o exercise1[?2004l
+cd: not a directory: exercise1
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.lan/Users/siobhan/cisc-3140-ebert[0m[27m[24m[Jsiobhan@MacBook-Pro-2 cisc-3140-ebert % [K[?2004hrrm exerc
