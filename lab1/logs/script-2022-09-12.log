@@ -18,4 +18,38 @@ Lab 4 is due in 86 days, ~ 12 weeks
 ]2;ls -G]1;lsLabsDueDatesEdit.class Main.class             [1m[36mlogs[39;49m[0m
 LabsDueDatesEdit.java  labsDueDates.java      task1note.txt
 [1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert/lab1]2;siobhan@MacBook-Pro-2]1;..40-ebert/lab1]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert/lab1[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[15:04:43] [00m[37m[~/cisc-3140-ebert/lab1][00m [32m[main [31m*[32m][00m
-[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hr
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hrrm Main.class[?1l>[?2004l
+]2;rm Main.class]1;rm[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert/lab1]2;siobhan@MacBook-Pro-2]1;..40-ebert/lab1]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert/lab1[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[15:04:56] [00m[37m[~/cisc-3140-ebert/lab1][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hrrm labsDueDates, .java[?1l>[?2004l
+]2;rm labsDueDates.java]1;rm[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert/lab1]2;siobhan@MacBook-Pro-2]1;..40-ebert/lab1]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert/lab1[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[15:05:01] [00m[37m[~/cisc-3140-ebert/lab1][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hccd ..[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3140-ebert]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[15:05:08] [00m[37m[~/cisc-3140-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hggit init[?1l>[?2004l
+]2;git init]1;gitReinitialized existing Git repository in /Users/siobhan/cisc-3140-ebert/.git/
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3140-ebert]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[15:05:10] [00m[37m[~/cisc-3140-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004h ggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3140-ebert]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[15:05:12] [00m[37m[~/cisc-3140-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hggit commit -m " edit java program to   for    to m make class and java fil [Kees same name"[?1l>[?2004l
+]2;git commit -m "edit java program to make class and java files same name"]1;git[main 90759bb] edit java program to make class and java files same name
+ 5 files changed, 24 insertions(+), 1 deletion(-)
+ rename lab1/{Main.class => LabsDueDatesEdit.class} (88%)
+ rename lab1/{labsDueDates.java => LabsDueDatesEdit.java} (97%)
+ create mode 100644 lab1/logs/script-2022-09-12.log
+ create mode 100644 lab1/logs/scripttest.log
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3140-ebert]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[15:05:31] [00m[37m[~/cisc-3140-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004hggit push[?1l>[?2004l
+]2;git push]1;gitEnumerating objects: 13, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects:  11% (1/9)Compressing objects:  22% (2/9)Compressing objects:  33% (3/9)Compressing objects:  44% (4/9)Compressing objects:  55% (5/9)Compressing objects:  66% (6/9)Compressing objects:  77% (7/9)Compressing objects:  88% (8/9)Compressing objects: 100% (9/9)Compressing objects: 100% (9/9), done.
+Writing objects:  11% (1/9)Writing objects:  22% (2/9)Writing objects:  33% (3/9)Writing objects:  44% (4/9)Writing objects:  55% (5/9)Writing objects:  66% (6/9)Writing objects:  77% (7/9)Writing objects: 100% (9/9)Writing objects: 100% (9/9), 34.49 KiB | 3.14 MiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To github.com:itsgivingchaotica/cisc-3140-ebert.git
+   39751ee..90759bb  main -> main
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert]2;siobhan@MacBook-Pro-2]1;..sc-3140-ebert]7;file://MacBook-Pro-2.local/Users/siobhan/cisc-3140-ebert[0m[27m[24m[J[01;32msiobhan@MacBook-Pro-2 [34m[15:05:33] [00m[37m[~/cisc-3140-ebert][00m [32m[main [31m*[32m][00m
+[34msse: 🧚🏻‍♀️✨ [31m$ [00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+
+Script done on Mon Sep 12 15:05:35 2022

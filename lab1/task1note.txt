@@ -55,3 +55,9 @@ Documentation: https://www.nano-editor.org/docs.php\
 
 \f1\fs24 \cf0 \CocoaLigature1 \
 }
+
+Node.js
+v18.9.0
+
+NPM
+8.19.1
