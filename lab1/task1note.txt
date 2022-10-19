@@ -1,63 +1,51 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\csgray\c0;}
-\margl1440\margr1440\vieww11520\viewh10800\viewkind0
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+macOS Terminal version 2.11 (440)
 
-\f0\fs22 \cf2 \CocoaLigature0 macOS Terminal version 2.11 (440)\
+git version 2.37.0 (Apple Git-136)
+/usr/bin/git
 
-\f1\fs24 \cf0 \CocoaLigature1 \
+gcc--12.2.0
+/usr/bin/gcc
 
-\f0\fs22 \cf2 \CocoaLigature0 git version 2.37.0 (Apple Git-136)\
-\
-gcc--12.2.0\
-\
 Documentation: https://gcc.gnu.org/onlinedocs/12.2.0/\
-\
-Homebrew 3.5.10\
-	brew.sh\
-	https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh\
-Documentation: https://docs.brew.sh/Manpage\
-\
-GNU Make 3.81\
-Copyright (C) 2006  Free Software Foundation, Inc.\
-This is free software; see the source for copying conditions.\
-There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A\
-PARTICULAR PURPOSE.\
-\
-This program built for i386-apple-darwin11.3.0\
-\
-Link to download: https://www.gnu.org/software/make/\
-\
+
+Homebrew 3.5.10
+/opt/homebrew/bin/brew
+brew.sh
+https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+Documentation: https://docs.brew.sh/Manpage
+
+GNU Make 3.81
+/usr/bin/make
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for i386-apple-darwin11.3.0
+
+Link to download: https://www.gnu.org/software/make/
+
 Documentation: https://www.gnu.org/software/make/manual/make.html#toc-GNU-Free-Documentation-License-1
-\f1\fs24 \cf0 \CocoaLigature1 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs22 \cf2 \CocoaLigature0 VIM - Vi IMproved 8.2 (2019 Dec 12, compiled Jun 17 2022 21:26:11)\
-macOS version - arm64\
-Included patches: 1-5032\
-Compiled by root@apple.com\
-Download: https://www.vim.org/download.php\
-Documentation: https://vimhelp.org/vim_faq.txt.html?
-\f1\fs24 \cf0 \CocoaLigature1 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+VIM - Vi IMproved 
+version 8.2.5032  
+/usr/bin/vim
 
-\f0\fs22 \cf2 \CocoaLigature0 GNU nano, version 6.4\
+Compiled by root@apple.com
+Download: https://www.vim.org/download.php
+Documentation: https://vimhelp.org/vim_faq.txt.html
+
+GNU nano, version 6.4
+/opt/homebrew/bin/nano
 (C) 2022 the Free Software Foundation and various contributors\
 Compiled options: --disable-libmagic --enable-utf8\
 Download: https://www.nano-editor.org/download.php\
 Documentation: https://www.nano-editor.org/docs.php\
 
-\f1\fs24 \cf0 \CocoaLigature1 \
-}
-
 Node.js
 v18.9.0
+/opt/homebrew/bin/node
 
 NPM
 8.19.1
+/opt/homebrew/bin/npm
