@@ -1,0 +1,23 @@
+name: CISC 3140 Fall 2022 Lab 2
+on:
+    push:
+        branches: [lab2]
+        paths: "lab2/* "
+    jobs:
+        01-JavaProg:
+            runs-on: macos-latest
+            steps:
+            - uses: actions/checkout@v3
+            - run: cd lab2/
+            - run: javac Lab2DueDates.java
+            - run: java Lab2DueDates < lab2data.txt
+        02-ZShellScript:
+            runs-on: macos-latest
+            steps:
+            - uses: actions/checkout@v3
+            - run: cd lab2 && ./sample.sh
+        03-MakeJavaProg:
+            runs-on: macos-latest
+            steps:
+            - uses: actions/checkout@v3
+            - run: cd lab2 && make lab2 
