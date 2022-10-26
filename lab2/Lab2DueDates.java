@@ -5,6 +5,60 @@ import java.time.temporal.ChronoUnit;
 
 public class Lab1DueDates {
     /**
+	 * create the formatted date to use when taking the time difference between the two LocalDate objects
+	 * @param dateInput : the day inputted by user
+	 * @param today : the date today
+	 * @param savedDateList : the array of menu options for preset due dates
+	 * @return the formatted date, null if unable to process
+	 * @throws ParseException
+	 */
+	public static LocalDate createDate(String dateInput, LocalDate today, List<String> savedDateList) throws ParseException
+	{
+		//if you wanted to use a different format such as "yyyy-MM-dd" you may specify below's DateTimeFormatter object argument pattern
+		DateTimeFormatter longDate = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+		LocalDate formattedDate;
+		int month, day, year;
+		if (isSavedDate(dateInput,savedDateList)) {
+			formattedDate=process(dateInput);	
+			return formattedDate;
+		}
+		String testMonth = dateInput.substring(0,2);
+		String testDay = dateInput.substring(3,5);
+		Pattern p = Pattern.compile("[^a-z0-9 ]", Pattern.CASE_INSENSITIVE);
+		Matcher m = p.matcher(testMonth);
+		Matcher d = p.matcher(testDay);
+		boolean monthError = m.find();
+		boolean dayError = d.find();
+		if (isValid(dateInput,longDate))
+		{
+			month = Integer.parseInt(dateInput.substring(0,2));
+			day = Integer.parseInt(dateInput.substring(3,5));
+			year = Integer.parseInt(dateInput.substring(6,10));
+			formattedDate = LocalDate.of(year, month, day);
+			return formattedDate;
+		}
+		else if (dateInput.length()==5 && dateInput.substring(2,3).equals("-") && !monthError && !dayError && Integer.parseInt(dateInput.substring(0,2))!=0 && Integer.parseInt(dateInput.substring(3,5)) !=0)
+		{
+			month = Integer.parseInt(dateInput.substring(0,2));
+			day = Integer.parseInt(dateInput.substring(3,5));
+			if (Integer.parseInt(dateInput.substring(0,2)) < today.getMonthValue())
+			{
+				year = today.getYear() + 1;
+			}
+			else {
+			year = today.getYear();
+			}
+			formattedDate = LocalDate.of(year, month, day);
+			return formattedDate;
+		}
+		else 
+		{
+			//or "(YYYY/MM/DD)"
+			System.out.print("Error: Please enter a valid input (MM/DD/YYYY) or (MM-DD): ");
+		}
+		return null;
+	}
+    /**
 	 * daysDifference finds the days between the beginning and end dates
 	 * @param end the second date input
 	 * @param begin the first date input
