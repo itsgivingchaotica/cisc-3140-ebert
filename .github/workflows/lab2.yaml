@@ -3,8 +3,9 @@ name: CISC 3140 Fall 2022 Lab 2
 on:
   push:
       branches: [ "main" ]
+      
 jobs:
-    01-JavaProg:
+    JavaProg:
         
         runs-on: macos-latest
         
@@ -16,7 +17,7 @@ jobs:
         - name: run java program with file redirection as user input
           run: java Lab2DueDates < lab2data.txt
           
-    02-ZShellScript:
+    ZShellScript:
     
         runs-on: macos-latest
         
@@ -25,7 +26,7 @@ jobs:
         - name: run java and zsh programs
           run: cd lab2 && ./sample.sh
           
-    03-MakeJavaProg:
+    MakeJavaProg:
     
         runs-on: macos-latest
         
