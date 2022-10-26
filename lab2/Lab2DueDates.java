@@ -1,4 +1,3 @@
-package cisc3140;
 import java.text.ParseException;
 import java.time.DateTimeException;
 import java.time.LocalDate;
@@ -42,6 +41,7 @@ public class Lab2DueDates {
 	 */
 	public static LocalDate createDate(String dateInput, LocalDate today, List<String> savedDateList) throws ParseException
 	{
+		//if you wanted to use a different format such as "yyyy-MM-dd" you may specify below's DateTimeFormatter object argument pattern
 		DateTimeFormatter longDate = DateTimeFormatter.ofPattern("MM/dd/yyyy");
 		LocalDate formattedDate;
 		int month, day, year;
@@ -80,6 +80,7 @@ public class Lab2DueDates {
 		}
 		else 
 		{
+			//or "(YYYY/MM/DD)"
 			System.out.print("Error: Please enter a valid input (MM/DD/YYYY) or (MM-DD): ");
 		}
 		return null;
@@ -204,9 +205,10 @@ public class Lab2DueDates {
 			LocalDate begin;
 			LocalDate end;
 			List<String> savedDateList = Arrays.asList("lab1","lab2","lab3","lab4","quiz1","quiz2","quiz3","quiz4","quiz5","finalExam","today");
-	        
+			//BufferedWriter out = new BufferedWriter(new FileWriter("output.txt"); 
+			//^this allows the anything printed out to a text file rather than to console
 			Scanner sc = new Scanner(System.in);
-		 
+			//Example: out.write("The following assignments for this class are: ");
 			System.out.println("The following assignments for this class are: ");
 			//list menu options
 			for (String s : savedDateList)
