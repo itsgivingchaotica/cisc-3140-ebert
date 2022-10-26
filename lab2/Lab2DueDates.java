@@ -99,7 +99,27 @@ String date1, date2;
 			//or "Enter start date (YYYY/MM/DD)"
 			System.out.print("Enter the start date (MM/DD/YYYY) or (MM-DD) or an option from above, q to quit: ");
 			//while user input
-			//while (in.hasNextLine())
+			//while (in.hasNextLine())public static void main(String[] args) throws ParseException 
+		{
+			String date1, date2;
+			LocalDate today = LocalDate.now();
+			LocalDate begin;
+			LocalDate end;
+			List<String> savedDateList = Arrays.asList("lab1","lab2","lab3","lab4","quiz1","quiz2","quiz3","quiz4","quiz5","finalExam","today");
+			//BufferedWriter out = new BufferedWriter(new FileWriter("output.txt"); 
+			//^this allows the anything printed out to a text file rather than to console
+			Scanner sc = new Scanner(System.in);
+			//Example: out.write("The following assignments for this class are: ");
+			System.out.println("The following assignments for this class are: ");
+			//list menu options
+			for (String s : savedDateList)
+			{
+				System.out.print(s + "   ");
+			}
+			System.out.println();
+			//or "Enter start date (YYYY/MM/DD)"
+			System.out.print("Enter the start date (MM/DD/YYYY) or (MM-DD) or an option from above, q to quit: ");
+			//while user input
 			//if a negative value, concert to positive value for overdue status
 			if (difference<0)
 			{
