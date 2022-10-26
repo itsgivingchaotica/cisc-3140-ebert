@@ -3,21 +3,33 @@ on:
     push:
         branches: [lab2]
         paths: "lab2/* "
-    jobs:
-        01-JavaProg:
-            runs-on: macos-latest
-            steps:
-            - uses: actions/checkout@v3
-            - run: cd lab2/
-            - run: javac Lab2DueDates.java
-            - run: java Lab2DueDates < lab2data.txt
-        02-ZShellScript:
-            runs-on: macos-latest
-            steps:
-            - uses: actions/checkout@v3
-            - run: cd lab2 && ./sample.sh
-        03-MakeJavaProg:
-            runs-on: macos-latest
-            steps:
-            - uses: actions/checkout@v3
-            - run: cd lab2 && make lab2 
+jobs:
+    01-JavaProg:
+        
+        runs-on: macos-latest
+        
+        steps:
+        - uses: actions/checkout@v3
+        - run: cd lab2/
+        - name: compile java program
+          run: javac Lab2DueDates.java
+        - name: run java program with file redirection as user input
+          run: java Lab2DueDates < lab2data.txt
+          
+    02-ZShellScript:
+    
+        runs-on: macos-latest
+        
+        steps:
+        - uses: actions/checkout@v3
+        - name: run java and zsh programs
+          run: cd lab2 && ./sample.sh
+          
+    03-MakeJavaProg:
+    
+        runs-on: macos-latest
+        
+        steps:
+        - uses: actions/checkout@v3
+        - name: run programs by makefile
+          run: cd lab2 && make lab2
