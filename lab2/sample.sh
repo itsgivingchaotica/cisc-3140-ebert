@@ -3,4 +3,4 @@
 source ./build.sh
 compile_run
 
-./lab2.sh
+./lab2.sh < shellinput.txt

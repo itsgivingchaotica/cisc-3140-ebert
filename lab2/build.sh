@@ -12,11 +12,8 @@ build_class()
     do
 	CLASS=${JAVA_FILE/%.java/.class}
 	CLASSES="$CLASS $CLASSES"
-	if [[ $JAVA_FILE -nt $CLASS ]]
-	then
 	echo "Compiling $JAVA_FILE..."
-	javac -cp $CLASS $JAVA_FILE 
-	fi
+	javac $JAVA_FILE 
     done
 }
 

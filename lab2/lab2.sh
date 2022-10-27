@@ -177,10 +177,9 @@ for s in ${savedDateList[@]}; do
     echo $s " "     
 done
 echo "Enter the start date (MM/DD/YYYY) or (MM-DD) or an option from above: "
+read date1
 while [[ $savedDateList != null ]] do;
-    read date1
     begin=$(createDate $date1)
-
     echo "Enter the end date: "
     read date2
     end=$(createDate $date2)
@@ -194,5 +193,12 @@ else
     echo "There are $difference days between the dates"
     set +x
 fi
-echo -n "Enter another begin date (Ctrl+C to quit) : "
+echo -n "Enter another begin date (q to quit)) : "
+read date1
+if [[ "$date1" = "q" ]]
+then
+    break
+else
+    continue
+fi
 done
