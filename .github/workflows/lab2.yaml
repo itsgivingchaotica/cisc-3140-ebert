@@ -2,7 +2,7 @@ name: CISC 3140 Fall 2022 Lab 2
 
 on:
   push:
-      branches: [ "main" ]
+      branches: [ "lab2" ]
       
 jobs:
     JavaProg:
@@ -11,7 +11,7 @@ jobs:
         
         steps:
         - uses: actions/checkout@v3
-        - run: cd lab2/
+        - run: cd lab2
         - name: compile java program
           run: javac -cp Lab2DueDates.java
         - name: run java program with file redirection as user input
@@ -23,9 +23,8 @@ jobs:
         
         steps:
         - uses: actions/checkout@v3
-        - run: cd lab2/
         - name: run java and zsh programs
-          run: ./sample.sh
+          run: cd lab2 && ./sample.sh
           
     MakeJavaProg:
     
