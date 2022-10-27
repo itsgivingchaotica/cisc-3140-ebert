@@ -11,9 +11,9 @@ jobs:
         
         steps:
         - uses: actions/checkout@v3
-        - run: cd lab2
+        - run: cd ./lab2
         - name: compile and execute java program
-          run: javac -cp Lab2DueDates.class Lab2DueDates.java
+          run: javac -cp Lab2DueDates.java
         - run: java Lab2DueDates < lab2data.txt
           
     ZShellScript:
@@ -23,7 +23,7 @@ jobs:
         steps:
         - uses: actions/checkout@v3
         - name: run java and zsh programs
-          run: cd lab2 && ./sample.sh
+          run: cd ./lab2 && ./sample.sh
           
     MakeJavaProg:
     
@@ -32,4 +32,4 @@ jobs:
         steps:
         - uses: actions/checkout@v3
         - name: run programs by makefile
-          run: cd lab2 && make lab2
+          run: cd ./lab2 && make lab2
