@@ -2,7 +2,7 @@ name: CISC 3140 Fall 2022 Lab 2
 
 on:
   push:
-      branches: [lab2]
+      branches: [ "lab2" ]
       paths: "lab2/* "
       
 jobs:
