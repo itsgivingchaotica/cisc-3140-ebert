@@ -3,6 +3,8 @@
 createDate() {
     dateInput=$1
     today=$(date +%m%d%y)
+    shift
+    shift
     array=("lab1" "lab2" "lab3" "lab4" "quiz1" "quiz2" "quiz3" "quiz4" "quiz5" "finalExam")
     year=$(date +%y)
     isSavedDate=false
@@ -34,9 +36,9 @@ createDate() {
             nextYear=$(($year+1))
             formattedDate="$removed$nextYear"
             echo $formattedDate
-        #set -x
+        set -x
         elif [[ "$length" ==  4 ]] && [[ $month_only -le $current_month ]]
-        #set +x
+        set +x
         then
             formattedDate=$removed
             # returns the date as a string of ints without special characters
@@ -180,6 +182,7 @@ echo "Enter the start date (MM/DD/YYYY) or (MM-DD) or an option from above: "
 while [[ $savedDateList != null ]] do;
     read date1
     begin=$(createDate $date1)
+
     echo "Enter the end date: "
     read date2
     end=$(createDate $date2)
@@ -191,6 +194,7 @@ then
     echo "The assignment is $absoluteVal days overdue"
 else
     echo "There are $difference days between the dates"
+    set +x
 fi
-echo -n "Enter another set of scores (Ctrl+C to quit) : "
+echo -n "Enter another begin date (Ctrl+C to quit) : "
 done

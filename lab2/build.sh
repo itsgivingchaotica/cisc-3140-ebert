@@ -2,7 +2,7 @@
 
 JAVA_PROGRAMS="Lab2DueDates.java"
 TXT_FILE="lab2data.txt"
-EXEC=Lab2DueDates
+EXEC="Lab2DueDates"
 
 build_class()
 {
