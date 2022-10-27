@@ -12,11 +12,10 @@ jobs:
         
         steps:
         - uses: actions/checkout@v3
-        - run: cd lab2
-        - name: compile java program
+        - run: cd lab2/
+        - name: compile and execute java program
           run: javac -cp Lab2DueDates.java
-        - name: run java program with file redirection as user input
-          run: java Lab2DueDates < lab2data.txt
+        - run: java Lab2DueDates < lab2data.txt
           
     ZShellScript:
     
