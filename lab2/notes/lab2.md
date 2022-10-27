@@ -5,11 +5,24 @@
 2. Alternatively, the java program can be compiled and run via the shellscript file `sample.sh` which calls the function `compile_run`from `source build.sh` and then separately runs the shellscript version of the java program in ZSH,`lab2.sh` via file diretion. 
 3. If you wanted to make your own input, you may simply delete `< shellinput.txt` and run `sample.sh` that way 
 
+## **FILES**
+- **Lab2DueDates.java** is the source file
+- **makefile** allows `make lab2` to compile and run java program
+- **lab2data.txt** was used for file redirection. Alternatively you can try using the other .txt file for a different set of results
+- **lab2.sh** is the shellscript version of the java program
+- **build.sh** includes the functions needed to compile and run the java program from shellscript
+- **sample.sh** when run, this runs all the code in build.sh for the java program as well as the shellscript version using file direction
+- **shellinputl.txt** was used for file redirection for the shellscript program but the other .txt file can also be used
+- **.gitignore** file was created specifically for this assignment
+- **logs** directory includes logs of sample runs
+- **notes** files away this markdown file
+
 # *Comparing ZSH with Java*
 
 Between my Java program and zsh script I was able to replicate the goal of the prompt - to accept user input and process the number of days between the two. Although I didn't delve in `case`s in this assignment, I instead printed a menu of the pre-set date options and used that strategy for both. 
 
 Certain features did not translate well to shell script. For example, the following code to determine if the input was of the correct length did not have the desired effect and was extremely buggy. Functions tended to work differently - I found that instead of returning a value back to the variable to store the result of the function, I simply had to use `echo` and store that way. However I couldn't figure it out when it came to returning pure boolean values. I attempted using manual strings as well as 0 and 1 and it didn't seem to work. So I moved on for the time being.
+
 ```
 isCorrectLength() {
 dateInput=$1
@@ -24,7 +37,6 @@ then
 else 
     echo "true"
 fi
-
 }
 
 #(from main)
@@ -53,9 +65,11 @@ if [[ "$length" ==  4 ]] && [[ $month_only -lt $current_month ]]
             ...
         fi
 ```
+
 In this example you can see the in zsh the if statements use different syntax that seems a bit more complicated. And instead of using the `LocalDate` class object methods to format I needed to format the date usage either myself or using the built-in date command manipulated around the user input
 
 In Java:
+
 ```
 else if (dateInput.length()==5 && dateInput.substring(2,3).equals("-") && !monthError && !dayError && Integer.parseInt(dateInput.substring(0,2))!=0 && Integer.parseInt(dateInput.substring(3,5)) !=0)
         {
@@ -68,6 +82,7 @@ else if (dateInput.length()==5 && dateInput.substring(2,3).equals("-") && !month
             ...
         }
 ```
+
 I spent a lot of time trying to reinterpret a complex if statement that used classes such as `Pattern` and `Matcher` into a more straightforward script program. Ultimately I lost the ability to get a result in which if the user inputs a way-off input that an error would simply be thrown with no ability to reinput the values needed. 
 
 In addition, `daysDifference` methods between the two differed. Because I used the `LocalDate` class object to store my dates inputted, I was able to use `ChronoUnit` to accurately and simply find the number of days between the two dates. It was certainly not this straightforward with zsh. Instead, I was forced to reformat the days inputted such as below by analyzing the length of the `string`s associated with the dates
