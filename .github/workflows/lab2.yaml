@@ -14,7 +14,7 @@ jobs:
         - run: echo "Compiling and executing Lab2 java program"
         - name: create java program and use file redirection
           run: javac ./lab2/Lab2DueDates.java
-        - run: java Lab2DueDates < ./lab2/lab2data.txt
+        - run: java -cp . ./lab2/Lab2DueDates < ./lab2/lab2data.txt
           
     ZShellScript:
     
