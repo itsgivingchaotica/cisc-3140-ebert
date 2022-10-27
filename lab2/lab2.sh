@@ -3,8 +3,6 @@
 createDate() {
     dateInput=$1
     today=$(date +%m%d%y)
-    shift
-    shift
     array=("lab1" "lab2" "lab3" "lab4" "quiz1" "quiz2" "quiz3" "quiz4" "quiz5" "finalExam")
     year=$(date +%y)
     isSavedDate=false
