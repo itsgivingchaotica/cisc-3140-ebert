@@ -3,6 +3,8 @@ name: CISC 3140 Fall 2022 Lab 2
 on:
   push:
       branches: [ "main" ]
+  push:
+      branches: [ "main" ]
       
 jobs:
     JavaProg:
@@ -17,7 +19,7 @@ jobs:
         - run: java -cp Lab2DueDates < ./lab2/lab2data.txt
           
     ZShellScript:
-    
+
         runs-on: macos-latest
         
         steps:
