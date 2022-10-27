@@ -5,7 +5,7 @@ createDate() {
     today=$(date +%m%d%y)
     array=("lab1" "lab2" "lab3" "lab4" "quiz1" "quiz2" "quiz3" "quiz4" "quiz5" "finalExam")
     year=$(date +%y)
-    isSavedate=false
+    isSavedDate=false
     
     for s in "${array[@]}"; do
     if [[ $s == $dateInput ]]
@@ -22,7 +22,7 @@ createDate() {
         formattedDate="$(process $dateInput)"
         echo $formattedDate
 
-    elif [[ $isSavedate == false ]]
+    elif [[ $isSavedDate == false ]]
     then    
         removed=$(echo $dateInput | sed 's/[-,/]//g')
         month_only=$(echo $dateInput | cut -c1 -c2)
@@ -34,16 +34,16 @@ createDate() {
             nextYear=$(($year+1))
             formattedDate="$removed$nextYear"
             echo $formattedDate
-        set -x
+        #set -x
         elif [[ "$length" ==  4 ]] && [[ $month_only -le $current_month ]]
-        set +x
+        #set +x
         then
             formattedDate=$removed
             # returns the date as a string of ints without special characters
             echo $formattedDate
         elif [[ "$length" == 8 ]] 
         then
-         formattedDate=$removed
+            formattedDate=$removed
             # returns the date as a string of ints without special characters
             echo $formattedDate
         else
@@ -101,14 +101,24 @@ else
 fi
 }
 
+isSavedDate() {
+    dateInput=$1
+    savedDateList=("lab1" "lab2" "lab3" "lab4" "quiz1" "quiz2" "quiz3" "quiz4" "quiz5" "finalExam")
+    #array=("$@")
+    for s in "${savedDateList[@]}"; do
+    echo $s " "
+        if [[ $s == $dateInput ]]
+        then    
+            echo "true"
+        else    
+            echo "false"
+        fi
+    done
+}
 
 daysDifference() {
-set -x
 end=$1
 begin=$2
-echo $end
-echo $begin
-set +x
 lengthEND=$(echo ${#end})
 lengthBEGIN=$(echo ${#begin})
 if [[ $lengthEND == 4 ]] && [[ $lengthBEGIN == 4 ]]
@@ -130,12 +140,35 @@ elif [[ $lengthEND == 8 ]] && [[ $lengthBEGIN == 4 ]]
 then
 start_date=$(date -j -f "%m%d" $2 "+%s")
 end_date=$(date -j -f "%m%d%Y" $1 "+%s")
+
+elif [[ $lengthEND == 6 ]] && [[ $lengthBEGIN == 6 ]]
+then 
+start_date=$(date -j -f "%m%d%y" $2 "+%s")
+end_date=$(date -j -f "%m%d%y" $1 "+%s")
+
+elif [[ $lengthEND == 4 ]] && [[ $lengthBEGIN == 6 ]]
+then 
+start_date=$(date -j -f "%m%d%y" $2 "+%s")
+end_date=$(date -j -f "%m%d" $1 "+%s")
+
+elif [[ $lengthEND == 6 ]] && [[ $lengthBEGIN == 4 ]]
+then 
+start_date=$(date -j -f "%m%d" $2 "+%s")
+end_date=$(date -j -f "%m%d%y" $1 "+%s")
+
+elif [[ $lengthEND == 8 ]] && [[ $lengthBEGIN == 6 ]]
+then 
+start_date=$(date -j -f "%m%d%y" $2 "+%s")
+end_date=$(date -j -f "%m%d%Y" $1 "+%s")
+
+elif [[ $lengthEND == 6 ]] && [[ $lengthBEGIN == 8 ]]
+then 
+start_date=$(date -j -f "%m%d%Y" $2 "+%s")
+end_date=$(date -j -f "%m%d%y" $1 "+%s")
 fi
 
 return $(( ($end_date - $start_date) / (60 * 60 * 24) ))
 }
-
-echo "hi"
 
 # MAIN
 savedDateList=("lab1" "lab2" "lab3" "lab4" "quiz1" "quiz2" "quiz3" "quiz4" "quiz5" "finalExam")
@@ -143,25 +176,21 @@ savedDateList=("lab1" "lab2" "lab3" "lab4" "quiz1" "quiz2" "quiz3" "quiz4" "quiz
 for s in ${savedDateList[@]}; do
     echo $s " "     
 done
-
-while
-    echo "Enter the start date (MM/DD/YYYY) or (MM-DD) or an option from above: "
+echo "Enter the start date (MM/DD/YYYY) or (MM-DD) or an option from above: "
+while [[ $savedDateList != null ]] do;
     read date1
     begin=$(createDate $date1)
-
     echo "Enter the end date: "
     read date2
-
     end=$(createDate $date2)
     daysDifference $end $begin
     difference=$?
-    if [[ $difference < 0 ]]
-    then
-        absoluteVal=$(echo $difference| cut -c2-)
-        echo "The assignment is $absoluteVal days overdue"
-    else
+if [[ $difference < 0 ]]
+then
+    absoluteVal=$(echo $difference| cut -c2-)
+    echo "The assignment is $absoluteVal days overdue"
+else
     echo "There are $difference days between the dates"
 fi
-echo -n "Do you wish to enter another set of scores? (y/n) "
-read CHOICE
-do [ "$CHOICE" != "n" ]; done
+echo -n "Enter another set of scores (Ctrl+C to quit) : "
+done

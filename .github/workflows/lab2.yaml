@@ -11,7 +11,7 @@ jobs:
         
         steps:
         - uses: actions/checkout@v3
-        - run: cd lab2/
+        - run: cd lab2
         - name: compile and execute java program
           run: javac -cp Lab2DueDates.java
         - run: java Lab2DueDates < lab2data.txt
