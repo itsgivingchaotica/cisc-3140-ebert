@@ -6,4 +6,4 @@ build_class:
 	javac -cp Lab2DueDates.class Lab2DueDates.java
 
 build_exec:
-	java Lab2DueDates
+	java Lab2DueDates < lab2data.txt
