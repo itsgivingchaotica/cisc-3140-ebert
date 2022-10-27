@@ -1,6 +1,11 @@
 # **Lab 2 Analysis: Comparing ZSH with Java**
 
-*Comparing ZSH with Java*
+# *Instructions*
+1. Makefile can be exeecuted by specifying `make lab2` from the `lab2` branch: the makefile compiles then runs the java program via file redirection
+2. Alternatively, the java program can be compiled and run via the shellscript file `sample.sh` which calls the function `compile_run`from `source build.sh` and then separately runs the shellscript version of the java program in ZSH,`lab2.sh` via file diretion. 
+3. If you wanted to make your own input, you may simply delete `< shellinput.txt` and run `sample.sh` that way 
+
+# *Comparing ZSH with Java*
 
 Between my Java program and zsh script I was able to replicate the goal of the prompt - to accept user input and process the number of days between the two. Although I didn't delve in `case`s in this assignment, I instead printed a menu of the pre-set date options and used that strategy for both. 
 
@@ -131,3 +136,26 @@ import java.lang.Math;
 ```
 
 Of course anything involving `regex` could be done manually, but in this case the others I needed to use because I was heavily relying on  `LocalDate` because manually creating a `Date` object would be too time consuming and wouldn't give the power needed to fulfill the programs full potential.
+
+# *Comparing ZSH script and makefile*
+
+Creating the makefile to compile and run the Java program was a breeze. It was beneficial when preparing the YAML file for my workflow for this project as well. I found that the `build.sh` file was more elaborate to write, but allowed me to use the same variable names `build_class` and `build_exec`. The `compile_run` function allowed them to be run in the shellscript whereas `make` acted as the catalyst for `makefile` with the target `lab2`. So from command line, it's easy for both to type in either `make lab2` or `./sample.sh` I was able to use file redirection in the same way in both files however I was not able to use the `-cp` flag for compiling in shellscript for some reason. Where as in the makefile it was `javac -cp Lab2DueDates.class Lab2DueDates.java`, in the shellscript version a `for` loop was used below:
+
+```
+ for JAVA_FILE in $INPUT
+    do
+    CLASS=${JAVA_FILE/%.java/.class}
+    CLASSES="$CLASS $CLASSES"
+    echo "Compiling $JAVA_FILE..."
+    javac $JAVA_FILE 
+    done
+```
+
+Then `$CLASSES` would be used as an argument for `build_exec` function. If I did have more than one class it would have been much simpler to use the shellscript because it allowed one variable to hold all the classes needed to run `main` with declaration of the .java filenames declared at the top of the document whereas in the makefile each would need to have their own line of input to create an executable.
+
+Overall I think makefile is best for simpler projecets or more complex projects that require different targets whereas the shellscript version allows everything to be run and compiled with two simple lines of code within the function `compile_run()` which can simply be called from any other shellscript.
+
+# *Thoughts on the AWK Group Project*
+This was the first time I collaborated with other students on a technical project. We employed the usual techniques for group collobaration: setting up the cloud-based files (Google Docs, Slides) for sharing ideas and inputting our work as well as creating a group chat for instant communciation. Our group leader found a great dataset and took charge of communication with Professor Chuang about the questions we planned to use for data analysis going into the project. From there on, we worked separately on the questions we picked and added our analysis for each to the presentation slides. We used the group repository to each create branches that had our code and other files included.
+
+From what I've learned from this project, next time I think adding issues we were facing when writing our code would've helped us collaborate more effecitvely. I spent hours hung up on some techniques that could've benefitted from second set of eyes and ears. In addition, there was a group member who fell behind and decided to not submit any work. Therefore, we should've set periodic goals and checked in with one another in a more structured way how far we were. This would've kept everyone on track for completing the assignment. 
