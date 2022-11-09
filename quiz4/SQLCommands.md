@@ -10,7 +10,7 @@ to run a sql query from a file
 
 - **DROP CONSTRAINT**
 Changing the primary key. you can find the index by typing `=# \d table_name`.
-````
+```
 Indexes:
     "person_pkey" PRIMARY KEY, btree (id)
 ```
