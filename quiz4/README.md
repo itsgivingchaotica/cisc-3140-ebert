@@ -17,3 +17,9 @@
 [Reference Manual](https://www.postgresql.org/docs/current/reference.html)
 [PostgreSQL tutorial](https://www.postgresql.org/docs/14/tutorial.html)
 [pgAdmin Documentation](https://www.pgadmin.org/docs/)
+
+[Setting up DB link in PostgreSQL](https://medium.com/@techrandomthoughts/setting-up-db-link-in-postgresql-d196468b43f8)
+[How to create database link in postgres](https://dbaclass.com/article/how-to-create-database-link-in-postgres/)
+[Setting up DB link in PostgreSQL](https://medium.com/@techrandomthoughts/setting-up-db-link-in-postgresql-d196468b43f8)
+[How to allow remote connections to PostgreSQL database server](https://bosnadev.com/2015/12/15/allow-remote-connections-postgresql-database-server/)
+
