@@ -3,7 +3,7 @@ var pg = require('pg');
 //var pg = require('pg').native
 
 var conString = "postgres://rdvklfuh:tRbk_cmUnMVmGQElaSclcuiVlhNeB763@peanut.db.elephantsql.com/rdvklfuh" //Can be found in the Details page
-var client = new pg.Client(conString);
+var client = new pg.Client(conString); //db
 client.connect(function(err) {
   if(err) {
     return console.error('could not connect to postgres', err);
